@@ -13,7 +13,7 @@ const Education = ({ name, level, duration, description}) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      style={{ minWidth: '300px' }}
+      style={{ minWidth: '300px' , width: '100%'}}
     >
       <div className="flex items-center w-full">
         <div className="education-icon bg-green-500 p-2 rounded-full mr-4"></div>

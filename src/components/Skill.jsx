@@ -8,7 +8,7 @@ const Skill = ({ name, level, duration, role }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      style={{ minWidth: '300px' }} // Ajuste del tamaño mínimo
+      style={{ maxWidth: '300px', width: '100%' }} // Ajuste del tamaño mínimo
     >
       <div className="flex items-center w-full">
         <div className="skill-icon bg-green-500 p-2 rounded-full mr-4"></div>

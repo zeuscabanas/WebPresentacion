@@ -8,6 +8,7 @@ import Contact from './Contact';
 import characterImage from '../assets/character.png'; // Importa tu imagen aquí
 import data from '../data.json'; // Importa los datos desde el archivo JSON
 
+// Usar contexto de Webpack para cargar imágenes de la carpeta assets
 const images = require.context('../assets', false, /\.(png|jpe?g|svg)$/);
 
 const categories = {
@@ -36,7 +37,7 @@ const SkillSheet = () => {
     if (contentHeight > 400) {
       setScreenHeight(contentHeight + 400);
     } else {
-      setScreenHeight('90vh');
+      setScreenHeight('95vh');
     }
   }, [categoryIndex]);
 
@@ -117,14 +118,14 @@ const SkillSheet = () => {
           />
         </div>
       </div>
-      <div className="flex justify-between items-center w-full mb-6">
+      <div className="flex items-center justify-between w-full mb-6">
         <button
           className="px-4 py-2 rounded-full flex items-center justify-center mx-4 rotate-180"
           onClick={handlePrev}
         >
           <span className="material-icons">double_arrow</span>
         </button>
-        <h2 className="text-3xl font-bold text-center text-green-500 flex-grow">
+        <h2 className="text-xs sm:text-3xl md:text-4xl font-bold text-center text-green-500 mx-auto">
           {category.charAt(0).toUpperCase() + category.slice(1)}
         </h2>
         <button

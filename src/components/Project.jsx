@@ -19,7 +19,7 @@ const Project = ({ name, level, description, image }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      style={{ minWidth: '300px' }}
+      style={{ minWidth: '300px' , width: '100%'}}
     >
       <div className="flex items-center w-full cursor-pointer" onClick={handleOpenDetail}>
         <div className="project-icon bg-green-500 p-2 rounded-full mr-4 border-green-500"></div>
