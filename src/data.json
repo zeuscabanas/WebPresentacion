@@ -1,0 +1,73 @@
+{
+    "skills": [
+        { "name": "Java", "level": 70 },
+        { "name": "Python", "level": 80 },
+        { "name": "Pytorch", "level": 40 },
+        { "name": "Salesforce", "level": 60},
+        { "name": "Html", "level": 80 },
+        { "name": "React", "level": 30 },
+        { "name": "CSS", "level": 60 },
+        { "name": "SQL", "level": 70 },
+        { "name": "JavaScript", "level": 40 },
+        { "name": "MongoDB", "level": 60 },
+        { "name": "Azure", "level": 20 },
+        { "name": "Google Cloud", "level": 20 }
+
+    ],
+    "education": [
+        { 
+            "name": "Sistemas Microinformáticos", 
+            "level": 100,
+            "duration": "2015 - 2019",
+            "description": "Tajamar"
+        },
+        { 
+            "name": "Desarrollo de aplicaciones", 
+            "level": 100,
+            "duration": "2010 - 2014",
+            "description": "Virgen de la paloma"
+        }
+    ],
+    "experience": [
+        
+        {
+            "name": "Inetum",
+            "level": 100,
+            "duration": "Marzo 2023 - Actualidad",
+            "role": "Desarrollador Salesforce"
+        },
+        {
+            "name": "EnkoTeams",
+            "level": 100,
+            "duration": "Marzo 2022 - junio 2022",
+            "role": "Soporte salesforce y desarrollo de aplicaciones"
+        },
+        {
+            "name": "OnRetrieval",
+            "level": 100,
+            "duration": "Varanos desde el 17 al 20",
+            "role": "Tecnico de lavoratorio de recuperacion de datos"
+        }
+    ],
+    "projects": [
+      { 
+        "name": "Uri Project", 
+        "level": 100, 
+        "description": "Proyecto de desarollo web para gestionar servicios de musica a locales", 
+        "image": "UriLogo.png"
+      },
+      {
+        "name": "Vision Artificial", 
+        "level": 100, 
+        "description": "Proyecto para la generacion de IAs de reconocimiento de imagenes", 
+        "image": "ia.png"
+      }
+    ],
+    "contact": {
+      "name": "César Cabanas",
+      "phone": "+34 648747761",
+      "email": "ccabanasurbina@gmail.com",
+      "age": 23
+    }
+  }
+  
