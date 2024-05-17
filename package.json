@@ -13,7 +13,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://<tu-usuario-github>.github.io/<nombre-del-repositorio>",
+  "homepage": "https://zeuscabanas.github.io/WebPresentacion",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
