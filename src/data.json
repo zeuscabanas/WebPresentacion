@@ -2,17 +2,15 @@
     "skills": [
         { "name": "Java", "level": 70 },
         { "name": "Python", "level": 80 },
-        { "name": "Pytorch", "level": 40 },
-        { "name": "Salesforce", "level": 60},
+        { "name": "Pytorch", "level": 20 },
+        { "name": "Tensorflow", "level": 20 },
+        { "name": "Salesforce", "level": 80 },
         { "name": "Html", "level": 80 },
         { "name": "Ofimática", "level": 90 },
-        { "name": "CSS", "level": 60 },
+        { "name": "CSS", "level": 40 },
         { "name": "SQL", "level": 70 },
         { "name": "JavaScript", "level": 40 },
-        { "name": "MongoDB", "level": 60 },
-        { "name": "Azure", "level": 20 },
-        { "name": "Google Cloud", "level": 20 }
-
+        { "name": "MongoDB", "level": 60 }
     ],
     "education": [
         { 
