@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WebPresentacion/static/css/main.46b7cae2.css",
-    "main.js": "/WebPresentacion/static/js/main.2b2ace8e.js",
+    "main.js": "/WebPresentacion/static/js/main.744d134e.js",
     "static/js/453.422fe807.chunk.js": "/WebPresentacion/static/js/453.422fe807.chunk.js",
     "static/media/UriLogo.png": "/WebPresentacion/static/media/UriLogo.adcf3c49e879382f448b.png",
     "static/media/project1.png": "/WebPresentacion/static/media/project1.adcf3c49e879382f448b.png",
@@ -9,11 +9,11 @@
     "static/media/ia.png": "/WebPresentacion/static/media/ia.da41338e9ba542d27a5c.png",
     "index.html": "/WebPresentacion/index.html",
     "main.46b7cae2.css.map": "/WebPresentacion/static/css/main.46b7cae2.css.map",
-    "main.2b2ace8e.js.map": "/WebPresentacion/static/js/main.2b2ace8e.js.map",
+    "main.744d134e.js.map": "/WebPresentacion/static/js/main.744d134e.js.map",
     "453.422fe807.chunk.js.map": "/WebPresentacion/static/js/453.422fe807.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46b7cae2.css",
-    "static/js/main.2b2ace8e.js"
+    "static/js/main.744d134e.js"
   ]
 }
