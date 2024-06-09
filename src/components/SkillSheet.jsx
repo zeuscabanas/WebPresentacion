@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Skill from './Skill';
 import Education from './Education';
 import Experience from './Experience';
 import Project from './Project';
 import Contact from './Contact';
+import Chat from './Chat'; // Importa el nuevo componente Chat
 import characterImage from '../assets/character.png'; // Importa tu imagen aquí
 import data from '../data.json'; // Importa los datos desde el archivo JSON
 
@@ -16,6 +17,7 @@ const categories = {
   education: data.education,
   experience: data.experience,
   projects: data.projects,
+  chat: [] // Añadir una categoría vacía para chat
 };
 
 const categoryNames = Object.keys(categories);
@@ -37,7 +39,7 @@ const SkillSheet = () => {
     if (contentHeight > 400) {
       setScreenHeight(contentHeight + 400);
     } else {
-      setScreenHeight('95vh');
+      setScreenHeight('90vh');
     }
   }, [categoryIndex]);
 
@@ -82,6 +84,8 @@ const SkillSheet = () => {
             />
           );
         });
+      case 'chat':
+        return <Chat />;
       default:
         return null;
     }
@@ -89,7 +93,7 @@ const SkillSheet = () => {
 
   return (
     <motion.div
-      className="skill-sheet p-6 rounded-lg shadow-lg flex flex-col items-center relative"
+      className="p-6 w-full rounded-lg shadow-lg flex flex-col items-center relative"
       initial={{ scale: 0.9 }}
       animate={{ scale: 1 }}
       transition={{ duration: 0.5 }}
@@ -125,7 +129,7 @@ const SkillSheet = () => {
         >
           <span className="material-icons">double_arrow</span>
         </button>
-        <h2 className="text-xs sm:text-3xl md:text-4xl font-bold text-center text-green-500 mx-auto">
+        <h2 className="text-2xl w-full sm:text-3xl md:text-4xl font-bold text-center text-green-500 mx-auto">
           {category.charAt(0).toUpperCase() + category.slice(1)}
         </h2>
         <button
@@ -135,7 +139,7 @@ const SkillSheet = () => {
           <span className="material-icons">double_arrow</span>
         </button>
       </div>
-      <div className="skills-grid grid grid-cols-1 md:grid-cols-2 gap-4 overflow-y-auto overflow-x-hidden" style={{ maxHeight: '50vh', scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+      <div className="skills-grid grid w-full grid-cols-1 md:grid-cols-2 gap-4 overflow-y-auto overflow-x-hidden" style={{ maxHeight: '50vh', scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
         {renderCategoryItems()}
       </div>
     </motion.div>

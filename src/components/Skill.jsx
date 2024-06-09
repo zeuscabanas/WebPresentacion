@@ -1,14 +1,13 @@
 import { motion } from 'framer-motion';
 
-const Skill = ({ name, level, duration, role }) => {
-
+const Skill = ({ name, level }) => {
   return (
     <motion.div
-      className="skill p-4 flex flex-col items-start"
+      className="skill p-4 flex flex-col m-auto" // Cambiado items-start a items-center y añadido justify-center
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      style={{ maxWidth: '300px', width: '100%' }} // Ajuste del tamaño mínimo
+      style={{ maxWidth: '600px', width: '100%' }} // Ajuste del tamaño mínimo
     >
       <div className="flex items-center w-full">
         <div className="skill-icon bg-green-500 p-2 rounded-full mr-4"></div>
@@ -22,7 +21,6 @@ const Skill = ({ name, level, duration, role }) => {
           </div>
         </div>
       </div>
-      
     </motion.div>
   );
 };

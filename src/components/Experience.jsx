@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 const Experience = ({ name, level, duration, role }) => {
   const [isHovered, setIsHovered] = useState(false);

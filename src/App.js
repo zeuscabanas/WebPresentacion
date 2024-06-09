@@ -1,4 +1,3 @@
-import React from 'react';
 import SkillSheet from './components/SkillSheet';
 
 const App = () => {
