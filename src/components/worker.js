@@ -34,7 +34,7 @@ class InterruptableStoppingCriteria extends StoppingCriteria {
         this.interrupted = false;
     }
 
-    _call(input_ids, scores) {
+    _call(input_ids) {
         return new Array(input_ids.length).fill(this.interrupted);
     }
 }
